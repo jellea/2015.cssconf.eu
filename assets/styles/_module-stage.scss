@@ -4,6 +4,8 @@
   position: relative;
   max-height: 15rem;
   overflow: hidden;
+  background-color: #F5F2E5;
+  margin: 0 1.5rem 0 1.5rem;
 
   @extend %tac;
   @extend %container;
@@ -11,6 +13,7 @@
   @include bp(small) {
     min-height: 16rem;
     max-height: none;
+    margin: 0;
   }
 }
 
@@ -21,6 +24,7 @@
 .stage__image {
   width: 100%;
   max-width: 100%;
+  max-height: 85vh;
 }
 
 .stage__content {
@@ -28,11 +32,11 @@
   left: 0;
   right: 0;
   margin: 0 auto;
-  bottom: 18%;
+  bottom: 15%;
 
   @include bp(small) { bottom: 15%; }
 
-  @include bp(xlarge) { bottom: 22%; }
+  @include bp(xlarge) { bottom: 15%; }
 }
 
 .stage__content--subpage {
@@ -51,6 +55,7 @@
 .stage__img {
   width: 100%;
   max-width: 100%;
+  // see separate _module_stage-keyvisual for svg animations
 }
 
 .banner-shown .stage,

@@ -31,6 +31,7 @@ module.exports = function(grunt) {
         },
         files: {
           'dest/assets/fonts.css': 'assets/styles/fonts.scss',
+          'dest/assets/keyvisual.css': 'assets/styles/keyvisual.scss',
           'dest/assets/cssconf-2015.css': 'assets/styles/styles.scss'
         }
       }

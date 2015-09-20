@@ -1,0 +1,102 @@
+@keyframes thermometer-wiggle {
+  0% {transform: rotateZ(0deg) translate(284px, 266px);}
+  100% {transform: rotateZ(4deg) translate(284px, 266px);}
+}
+
+#thermometer {
+  animation-duration: 1.5s;
+  transform-origin: 50% 50%;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: thermometer-wiggle;
+}
+
+@keyframes amoeba-wiggle {
+  0% {transform: rotate(0deg) translate(1451px, 469px);}
+  100% {transform: rotate(3deg) translate(1451px, 469px);}
+}
+
+
+#amoeba {
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transform-origin: 80% 50%;
+  perspective: 200;
+  perspective-origin: 80% 50%;
+  animation-direction: alternate;
+  animation-name: amoeba-wiggle;
+}
+
+
+@keyframes red_ring-wiggle {
+  0% {transform: rotate(0deg) translate(222px, 512px);}
+  100% {transform: rotate(360deg) translate(222px, 512px);}
+}
+
+
+#red_ring {
+  animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  transform-origin: 232px 522px;
+  animation-direction: alternate;
+  animation-name: red_ring-wiggle;
+}
+
+@keyframes backdrop-blue-wiggle {
+  0% {transform: translate(0,0)}
+  100% {transform: translate(30px, 32px)}
+}
+
+
+#blue_backdrop {
+  animation-duration: 5.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: backdrop-blue-wiggle;
+}
+
+@keyframes backdrop-red-wiggle {
+  0% {transform: translate(0,0)}
+  100% {transform: translate(-30px, 22px)}
+}
+
+
+#red_backdrop {
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: backdrop-red-wiggle;
+}
+
+@keyframes backdrop-yellow-wiggle {
+  0% {transform: translate(0,0)}
+  100% {transform: translate(-20px, -32px)}
+}
+
+
+#yellow_backdrop {
+  animation-duration: 4.6s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: backdrop-yellow-wiggle;
+}
+
+
+//@keyframes yellow_worm-wiggle {
+//  0% {transform: translate(0,0)}
+//  100% {transform: translate(20px, 0)}
+//}
+//
+//#yellow_worm {
+//  animation-duration: 6s;
+//  animation-timing-function: ease-in-out;
+//  animation-iteration-count: infinite;
+//  animation-direction: alternate;
+//  animation-name: yellow_worm-wiggle;
+//}

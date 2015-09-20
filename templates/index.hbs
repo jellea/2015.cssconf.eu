@@ -2,13 +2,8 @@
 
 {{!-- STAGE SECTION --}}
 <div class="rw stage stage--home">
-  {{#parseJSON '{"large":"stage-2400.png", "medium":"stage-1200.png", "small":"stage-600.png", "altText":"CSSconf written in line artwork."}' }}
-    {{> stage }}
-  {{/parseJSON}}
+  <object type="image/svg+xml" data="/assets/{{version '_'}}/img/keyvisual.svg" class="stage__image"></object>
   <div class="stage__content">
-    <!-- <a href="http://2015.cssconf.eu/sponsors/" class="stage__button btn--special">
-      <span class="btn__span" data-hover="Become a sponsor">Become a sponsor</span>
-    </a> -->
     <a href="https://ti.to/cssconfeu/cssconf-eu-2015/" class="stage__button btn--special">
       <span class="btn__span" data-hover="Buy Ticket">Buy Ticket</span>
     </a>
